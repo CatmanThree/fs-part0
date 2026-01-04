@@ -3,7 +3,8 @@
   sequenceDiagram
       participant browser
       participant server
-  
+
+      Note right of browser: User saves a note
       browser->>server: POST https://studies.cs.helsinki.fi//exampleapp/new_note
       activate server
       Note left of server: Push to note database
