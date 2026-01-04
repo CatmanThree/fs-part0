@@ -11,7 +11,7 @@
       server-->>browser: URL Redirect
       deactivate server
   
-      Note right of browser: HTTP GET request to /notes - Reloads the page
+      Note right of browser: HTTP GET request to /notes - Reloads the page (same diagram given in the example!)
 ```
 
 # Part 05
